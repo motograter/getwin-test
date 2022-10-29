@@ -1,0 +1,32 @@
+.card-header {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-img-top{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.pokemon_stat-list {
+    margin-bottom: 20px;
+    flex: auto;
+}
+
+.pokemon_move-list {
+    overflow-y: scroll;
+    max-height: 230px;
+    flex: auto;
+}
+
+.sticky {
+    position: sticky;
+    top:0;
+    background-color: #ffff;
+}

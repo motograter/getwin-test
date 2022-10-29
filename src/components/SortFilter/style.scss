@@ -1,0 +1,17 @@
+.sort-filter {
+   max-width: 500px;
+   padding: 10px;
+   border: 1px solid rgb(233, 229, 229);
+   border-radius: 4px;
+}  
+
+.sort-filter_filters{
+    display: flex;
+    gap: 10px;
+    padding: 3px;
+    flex-wrap: wrap;
+}
+
+.badge {
+    cursor: pointer;
+}

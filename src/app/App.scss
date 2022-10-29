@@ -1,0 +1,52 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 10px;
+}
+
+.layout {
+  gap: 20px;
+}
+
+.pokemons-controls {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.list-group-item {
+  gap: 10px !important;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.search-box {
+  max-height: 40px;
+}
+
+.pokemon-list {
+  min-width: 250px;
+  flex-basis: 700px;
+}
+
+.pokemon-details {
+  flex-grow: 1;
+}
+
+.pokemon-types {
+  gap: 4px;
+  display: flex;
+}
